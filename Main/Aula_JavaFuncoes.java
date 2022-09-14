@@ -10,9 +10,10 @@ public class Aula_JavaFuncoes {
        //para usar variáveis ao chamar um método, essas devem ser passadas por parâmetro
        saudacao(nomeOriginal);
     
+       System.out.println("Realizando soma com funções");
+       
        // a variavel resultado está recebendo o retorno da função soma
        int resultado = soma (2, 3);
-       System.out.println("Realizando soma com funções");
        System.out.println("Resultado: " + resultado);
 
        
@@ -25,6 +26,7 @@ public class Aula_JavaFuncoes {
 
     public static int soma (int a, int b) {
         //retorna o resultado da operação
+        System.out.println("Soma: " + a + "+" + b);
         return a + b;
     }
 }
